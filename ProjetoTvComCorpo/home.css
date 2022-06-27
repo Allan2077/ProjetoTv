@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgb(255, 187, 0);
+}
+
+header {
+    height: 2.5vh;
+    width: 65vw;
+    background: rgb(255, 187, 0);
+    border: 1px solid rgba(212, 205, 205, 0.562);
+}
+
+main {
+    height: 95vh;
+    width: 65vw;
+
+}
+
+footer {
+    height: 2.5vh;
+    width: 65vw;
+    background: rgb(255, 187, 0);
+    border: 1px solid rgba(212, 205, 205, 0.562);
+}
+
+section,
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.imgTela {
+    position: absolute;
+    top: 12vh;
+    width: 49%;
+    height: 61%;
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+
+@media (max-width:1920px) {
+    body{
+        background: rgb(243, 62, 30);
+    }
+    header {
+        background: rgb(243, 62, 30);
+        height: 3.5vh;
+        width:70vw;
+    }
+
+    main {
+        height: 93vh;
+        width:70vw;
+    }
+    .imgTela{
+        width: 53%;
+        height: 61%;
+    }
+
+    footer {
+        background: rgb(243, 62, 30);
+        height: 3.5vh;
+        width:70vw;
+    }
+}
+
+
+
+
+
+
+@media (max-width:1440px) {
+    body{
+        background: rgb(71, 122, 59);
+    }
+    header {
+        background: rgb(71, 122, 59);
+        height: 15vh;
+        width: 75vw;
+    }
+
+    main {
+        height: 70vh;
+        width: 75vw;
+    }
+    .imgTela{
+        width: 60%;
+        height: 61%;
+        padding: 10px;
+    }
+
+    footer {
+        background: rgb(71, 122, 59);
+        height: 15vh;
+        width: 75vw;
+    }
+}
+
+
+
+
+
+
+
+
+@media (max-width:1024px) {
+    body{
+        background: rgb(252, 120, 33);
+    }
+    header {
+        background: rgb(252, 120, 33);
+        height: 20vh;
+        width: 75vw;
+    }
+
+    main {
+        height: 60vh;
+        width: 75vw;
+    }
+
+    .imgTela{
+        width: 71%;
+        height: 61%;
+    }
+
+    footer {
+        background: rgb(252, 120, 33);
+        height: 20vh;
+        width: 75vw;
+    }
+}
+
+
+
+
+
+@media (max-width:768px) {
+    body{
+        background: rgb(63, 188, 226);
+    }
+    header {
+        background: rgb(63, 188, 226);
+        height: 25vh;
+        width: 70vw;
+    }
+
+    main {
+        height:50vh;
+        width: 70vw;
+    }
+
+    .imgTela{
+        padding: 10px;
+        width: 71%;
+        height: 58%;
+    }
+
+    footer {
+        background: rgb(63, 188, 226);
+        height: 25vh;
+        width: 70vw;
+    }
+}
+
+
+
+
+
+
+@media (max-width:425px) {
+    body{
+        background: rgb(138, 49, 49);
+    }
+    header {
+        background: rgb(138, 49, 49);
+        height: 10vh;
+        width: 70vw;
+    }
+
+    main {
+        height: 80vh;
+        width: 70vw;
+    }
+
+    .imgTela{
+        width: 71%;
+        height: 58%;
+    }
+
+    footer {
+        background: rgb(138, 49, 49);
+        height: 10vh;
+        width: 70vw;
+    }
+}

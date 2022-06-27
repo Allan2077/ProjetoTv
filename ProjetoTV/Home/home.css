@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   
+    background: rgb(255, 187, 0);
+    flex-direction: column;
+    height: 100vh;
+}
+main{
+    height: 100%;
+}
+
+main, .container {
+    height: 100%;
+    width: 100%;
+    background-size: 50.8%;
+    background-repeat: no-repeat;
+    background-position: 49.5%;
+    background-image: url("../Assets/tela.png"); 
+}
+.off{
+    width: 5vw;
+    height:25vh;
+    background-image: url(../Assets/chiado1.gif);
+    box-shadow: rgba(1, 1, 1, .35) 5px 10px 9px;
+}
+
+section {
+    background-image: url("../Assets/tv666.png");
+    height: 100%;
+    background-size: 60vw;
+    background-repeat: no-repeat;
+    background-position: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#ButtonOn {
+    background: rgba(233, 231, 231, 0.486);
+    box-shadow: rgba(1, 1, 1, .35) 5px 10px 9px;
+    position: fixed;
+    left: 70%;
+    bottom: 50.1%;
+    border-radius: 100%;
+    width:36px;
+    height: 36px;
+    border: none;
+    
+}
+
+.darkMode {
+    box-shadow: rgb(25, 6, 213) 600px 100px 800px;
+    background-image: url('../Assets/chiado1.gif');
+
+}
+
+
+
+
+
+@media (max-width:1920px) {
+    body {
+        background: rgb(32, 120, 136);
+    }
+    #ButtonOn{
+        top:47.3vh;
+        height: 24px;
+        width: 24px;
+        border-radius: 100%;
+       
+
+    }
+    
+
+}
+
+@media (max-width:1440px) {
+    body {
+        background: rgb(134, 52, 52);
+    }
+    #ButtonOn{
+        top:48.1%;
+        height:17px;
+        width: 17px;
+    }
+    
+}
+@media (max-width:1024px) {
+    body {
+        background: rgb(62, 134, 52);
+    }
+    #ButtonOn{
+        top:48.6%;
+        height: 13px;
+        width: 13px;
+        border-radius: 100%;
+    }
+    
+}
+@media (max-width:768px) {
+    body {
+        background: rgb(255, 85, 241);
+    }
+    #ButtonOn{
+        top:48.9%;
+        height: 11px;
+        width: 11px;
+        border-radius: 100%;
+    }
+    
+}
+@media (max-width:768px) {
+    body {
+        background: rgb(255, 85, 85);
+    }
+    #ButtonOn{
+        top:49.0%;
+        height: 9px;
+        width: 9px;
+        border-radius: 100%;
+    }
+    
+}
+
