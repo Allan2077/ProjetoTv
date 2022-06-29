@@ -1,0 +1,187 @@
+@media (max-width : 2560px) {
+
+
+
+   /*  body {
+        background: rgb(171, 243, 2);
+    }
+ */
+    header {
+       /*  background: rgb(171, 243, 2); */
+        height: 3.5vh;
+        width: 70vw;
+    }
+
+    main {
+        height: 93vh;
+        width: 70vw;
+    }
+
+    .imgTela {
+        width: 53%;
+        height: 61%;
+    }
+
+    footer {
+       /*  background: rgb(171, 243, 2); */
+        height: 3.5vh;
+        width: 70vw;
+    }
+}
+
+
+@media (max-width : 1920px) {
+
+    /* body {
+        background: rgb(243, 62, 30);
+    } */
+
+    header {
+        /* background: rgb(243, 62, 30); */
+        height: 3.5vh;
+        width: 70vw;
+    }
+
+    main {
+        height: 93vh;
+        width: 70vw;
+    }
+
+    .imgTela {
+        width: 53%;
+        height: 61%;
+        
+    }
+
+    footer {
+        /* background: rgb(243, 62, 30); */
+        height: 3.5vh;
+        width: 70vw;
+    }
+}
+
+@media (max-width: 1440px) {
+
+   /*  body {
+        background: rgb(71, 122, 59);
+    } */
+
+    header {
+        /* background: rgb(71, 122, 59); */
+        height: 15vh;
+        width: 75vw;
+    }
+
+    main {
+        height: 70vh;
+        width: 75vw;
+    }
+
+    .imgTela {
+        width: 60%;
+        height: 61%;
+        padding: 4vh;
+    }
+
+    footer {
+        /* background: rgb(71, 122, 59); */
+        height: 15vh;
+        width: 75vw;
+    }
+}
+
+@media (max-width:1024px) {
+
+
+  body {
+        background: rgb(252, 120, 33);
+    } 
+
+    header {
+       /*  background: rgb(252, 120, 33); */
+        height: 25vh;
+        width: 70vw;
+    }
+
+    main {
+        height: 50vh;
+        width: 70vw;
+    }
+
+    .imgTela {
+        width: 60%;
+        height: 60%;
+        padding-top: 15%;
+        
+    }
+
+    footer {
+       /*  background: rgb(252, 120, 33); */
+        height: 25vh;
+        width: 70vw;
+    }
+
+}
+
+@media(max-width:600px) {
+
+
+   body {
+        background: rgb(63, 188, 226);
+    } 
+
+    header {
+        /* background: rgb(63, 188, 226); */
+        height: 30vh;
+        width: 70vw;
+    }
+
+    main {
+        height: 40vh;
+        width: 70vw;
+    }
+
+    .imgTela {
+
+        width: 71%;
+        height: 50%;
+        padding-top: 20vh;
+
+    }
+
+    footer {
+        /* background: rgb(63, 188, 226); */
+        height: 30vh;
+        width: 70vw;
+    }
+}
+
+
+@media(max-width:375px) {
+
+     body {
+        background: rgb(207, 11, 207);
+    } 
+
+    header {
+        /* background: rgb(138, 49, 49); */
+        height: 30vh;
+        width: 70vw;
+    }
+
+    main {
+        height: 40vh;
+        width: 70vw;
+    }
+
+    .imgTela {
+        width: 71%;
+        height: 50%;
+    }
+
+    footer {
+        /* background: rgb(138, 49, 49); */
+        height: 30vh;
+        width: 70vw;
+    }
+}
