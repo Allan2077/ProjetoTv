@@ -32,8 +32,10 @@ footer {
     border: 1px solid rgba(212, 205, 205, 0.562);
 }
 
+
+
 section,
-img {
+.tv {
     height: 100%;
     width: 100%;
 }
@@ -53,7 +55,7 @@ article {
     display: block;
     align-items: center;
     justify-content: center;
-
+  
 }
 
 button {
@@ -68,6 +70,8 @@ button {
 }
 
 .modeChange{
-    background: rgb(141, 134, 134);
-     color:aliceblue
+   background: violet;
+  
+   
+
 }

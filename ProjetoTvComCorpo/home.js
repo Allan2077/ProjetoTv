@@ -1,3 +1,7 @@
-let modeChange = document.querySelector('.modeChange');
+const container = document.querySelector('.container')
 
-    imgTela.classList.toggle('modeChange');
+
+
+function modeChange(){
+    container.classList.toggle('modeChange');
+}
