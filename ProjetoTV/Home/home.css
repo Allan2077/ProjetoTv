@@ -5,32 +5,26 @@
 }
 
 body {
-   
     background: rgb(255, 187, 0);
     flex-direction: column;
     height: 100vh;
 }
-main{
+
+main {
     height: 100%;
 }
 
-main, .container {
+.container {
     height: 100%;
     width: 100%;
     background-size: 50.8%;
     background-repeat: no-repeat;
     background-position: 49.5%;
-    background-image: url("../Assets/tela.png"); 
-}
-.off{
-    width: 5vw;
-    height:25vh;
-    background-image: url(../Assets/chiado1.gif);
-    box-shadow: rgba(1, 1, 1, .35) 5px 10px 9px;
+    background-image: url("../Assets/telaDesligada.png");
 }
 
 section {
-    background-image: url("../Assets/tv666.png");
+    background-image: url("../Assets/molduraTv2.png");
     height: 100%;
     background-size: 60vw;
     background-repeat: no-repeat;
@@ -38,93 +32,138 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 #ButtonOn {
-    background: rgba(233, 231, 231, 0.486);
-    box-shadow: rgba(1, 1, 1, .35) 5px 10px 9px;
+    background: rgba(233, 231, 231, 0);
     position: fixed;
-    left: 70%;
+    left: 69.9%;
     bottom: 50.1%;
     border-radius: 100%;
-    width:36px;
-    height: 36px;
+    width: 35px;
+    height: 34px;
     border: none;
-    
+
 }
 
 .darkMode {
     box-shadow: rgb(25, 6, 213) 600px 100px 800px;
-    background-image: url('../Assets/chiado1.gif');
+    background-image: url('../Assets/chiado.gif');
 
 }
 
-
-
+.cleanLight {
+    position: relative;
+    background: rgba(221, 147, 50, 0.911);
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    left: 22.5vw;
+    bottom: 2vh;
+    box-shadow: inset 0 0 2em rgba(94, 255, 0, 0.829), 0 0 1em rgb(6, 252, 26);
+}
 
 
 @media (max-width:1920px) {
     body {
         background: rgb(32, 120, 136);
     }
-    #ButtonOn{
-        top:47.3vh;
-        height: 24px;
-        width: 24px;
-        border-radius: 100%;
-       
 
+    #ButtonOn {
+        height: 1.6rem;
+        width: 1.8rem;
+        background: rgba(250, 249, 249, 0);
     }
-    
 
+    .cleanLight {
+        position: relative;
+        width: 10px;
+        height: 10px;
+        bottom: 14px;
+    }
 }
 
 @media (max-width:1440px) {
     body {
         background: rgb(134, 52, 52);
     }
-    #ButtonOn{
-        top:48.1%;
-        height:17px;
-        width: 17px;
+
+    #ButtonOn {
+        top: 48.1%;
+        height: 19px;
+        width: 21px;
     }
-    
+
+    .cleanLight {
+        position: relative;
+        width: 9px;
+        height: 9px;
+        bottom: 11px;
+    }
+
 }
+
 @media (max-width:1024px) {
     body {
         background: rgb(62, 134, 52);
     }
-    #ButtonOn{
-        top:48.6%;
-        height: 13px;
-        width: 13px;
+
+    #ButtonOn {
+        top: 48.6%;
+        height: 14px;
+        width: 15px;
         border-radius: 100%;
     }
-    
-}
-@media (max-width:768px) {
-    body {
-        background: rgb(255, 85, 241);
+
+    .cleanLight {
+        position: relative;
+        width: 7px;
+        height: 7px;
+        bottom: 8px;
     }
-    #ButtonOn{
-        top:48.9%;
-        height: 11px;
-        width: 11px;
-        border-radius: 100%;
-    }
-    
-}
-@media (max-width:768px) {
-    body {
-        background: rgb(255, 85, 85);
-    }
-    #ButtonOn{
-        top:49.0%;
-        height: 9px;
-        width: 9px;
-        border-radius: 100%;
-    }
-    
 }
 
+    @media (max-width:768px) {
+    body {
+        background: rgb(211, 41, 226);
+    }
+
+    #ButtonOn {
+        top: 49.1%;
+        height: 10px;
+        width: 12px;
+        border-radius: 100%;
+    }
+
+    .cleanLight {
+        position: relative;
+        width: 4px;
+        height: 3px;
+        bottom: 6px;
+    }
+
+    @media (max-width:425px) {
+        body {
+            background: rgb(41, 226, 217);
+        }
+
+        #ButtonOn {
+            top: 49.4%;
+            height: 6px;
+            width: 7px;
+            border-radius: 100%;
+        }
+
+        .cleanLight {
+            position: relative;
+            width: 2px;
+            height: 2px;
+            bottom: 3px;
+
+        }
+
+    }
+
+
+}
